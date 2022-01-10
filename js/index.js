@@ -54,8 +54,9 @@ let wordCount = para1.split(" ").length;
 console.log(wordCount);
 
 // numTimes 'et'
-let etTimes = para2.match(/et/g);
-console.log(etTimes.length);
+let words = para2.split("et").length - 1;
+console.log(words);
+
 
 // Bonus 2
 let phraseToCheck = "taco cat";
