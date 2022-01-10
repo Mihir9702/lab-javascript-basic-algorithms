@@ -54,8 +54,16 @@ let wordCount = para1.split(" ").length;
 console.log(wordCount);
 
 // numTimes 'et'
-let words = para2.split("et").length - 1;
-console.log(words);
+// let words = para2.split("et").length - 1;
+// console.log(words);
+
+let etTimes = 0;
+for (let i = 0; i < para2.length; i++) {
+        if (para2[i] == " " && para2[i+1] == "e" && para2[i+2] == "t" && para2[i+4] == " ") {
+                etTimes++;
+        }
+}
+console.log(etTimes);
 
 
 // Bonus 2
