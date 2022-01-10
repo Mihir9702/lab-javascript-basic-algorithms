@@ -27,9 +27,20 @@ for (let i = 0; i < hacker1.length; i++) {
         hacker1Space += hacker1.charAt(i) + ' ';
 }
 
+// 3.1
 console.log(hacker1Space.toUpperCase());
 
+// 3.2
 console.log(hacker2.split("").reverse().join(""));
+
+// 3.3
+if (hacker1 < hacker2) {
+        console.log("The driver's name goes first.");
+} else if (hacker2 < hacker1) {
+        console.log("Yo, the navigator goes first definitely.");
+} else {
+        console.log("What?! You both have the same name?");
+}
 
 // Bonus 1
 let para1 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam iste nesciunt perspiciatis temporibus tempore optio delectus vero sapiente? Necessitatibus, hic delectus ut temporibus distinctio ducimus facilis fuga dolor consectetur. Voluptas ea, at temporibus nulla, atque sit deserunt doloribus cupiditate fugit, ipsum recusandae praesentium? Ad.";
