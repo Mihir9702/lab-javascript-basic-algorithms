@@ -54,20 +54,14 @@ let wordCount = para1.split(" ").length;
 console.log(wordCount);
 
 // numTimes 'et'
-// let words = para2.split("et").length - 1;
-// console.log(words);
+let et = para2.split("et").length - 1;
+console.log(et);
 
-let etTimes = 0;
-for (let i = 0; i < para2.length; i++) {
-        if (para2[i] == " " && para2[i+1] == "e" && para2[i+2] == "t" && para2[i+4] == " ") {
-                etTimes++;
-        }
-}
-console.log(etTimes);
+
 
 
 // Bonus 2
-let phraseToCheck = "taco cat";
+let phraseToCheck = "noacaon";
 let phrase1 = [];
 let phrase2 = [];
 let check = false;
