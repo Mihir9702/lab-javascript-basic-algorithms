@@ -54,10 +54,14 @@ let wordCount = para1.split(" ").length;
 console.log(wordCount);
 
 // numTimes 'et'
-let et = para2.split("et").length - 1;
+let et = para2.toLowerCase().split(" et ").length - 1;
 console.log(et);
 
+// let lowCase = para2.toLowerCase();
 
+// for (let i = 0; i < lowCase.length; i++) {
+//         if (lowCase[i] == " " && lowCase[i+1] == "e")
+// }
 
 
 // Bonus 2
